@@ -19,7 +19,7 @@ M.highlights_base = function(colors)
     Cursor = { fg = colors.foreground, bg = colors.cursor },
     CursorColumn = { bg = colors.transparent },
     CursorIM = { fg = colors.foreground, bg = colors.cursor },
-    CursorLine = {fg,=color.foreground bg = colors.color1 },
+    CursorLine = {fg=color.foreground bg = colors.color1 },
     CursorLineNr = { fg = colors.color1 },
     Debug = { fg = colors.color11 },
     Define = { fg = colors.color6 },
