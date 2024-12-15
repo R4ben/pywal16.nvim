@@ -16,7 +16,7 @@ M.highlights_base = function(colors)
     Conceal = { fg = colors.color4, bg = colors.transparent },
     Conditional = { fg = colors.color2 },
     Constant = { fg = colors.color9 },
-    Cursor = { fg = colors.foreground, bg = colors.cursor },
+    Cursor = { bg = colors.transparent },
     CursorColumn = { bg = colors.transparent },
     CursorIM = { fg = colors.foreground, bg = colors.cursor },
     CursorLine = {fg=color.foreground bg = colors.color1 },
